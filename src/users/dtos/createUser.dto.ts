@@ -13,4 +13,7 @@ export class createUser {
     @IsNotEmpty()
     @IsEmail()
     email: String;
+
+    @IsNotEmpty()
+    age: number;
 }
